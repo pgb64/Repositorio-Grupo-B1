@@ -1,7 +1,8 @@
 def obtener_definicion(tema):
     definicones = {
-        'Microsoft: Entidad vampírica que intenta monopolizar el mercado de la informática',
-        'Pycharm: Aplicacion de programacion copia de la amada VSC'
+        'Pycharm': 'Aplicacion de programacion copia de la amada VSC',
+        'Microsoft': 'Entidad vampírica que intenta monopolizar el mercado de la informática',
+        'Windows': 'Sistema operativo en tipo de archivo NFTS incompatible con Linux'
     }
     return definicones.get(tema.lower(), "Definición no encontrada")
 
