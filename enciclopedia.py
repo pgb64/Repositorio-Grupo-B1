@@ -1,6 +1,6 @@
 def obtener_definicion(tema):
     definicones = {
-        # Aquí cada persona agregará su tema y definición
+        'Microsoft: Entidad vampírica que intenta monopolizar el mercado de la informática'
     }
     return definicones.get(tema.lower(), "Definición no encontrada")
 
